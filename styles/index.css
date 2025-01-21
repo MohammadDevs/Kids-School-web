@@ -1,0 +1,111 @@
+/* Google Font's area start */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+/* Google Font's area end */
+* {
+    margin-top: 0px;
+}
+            /* Shered Styles part Start */
+.header-bg {
+    background-color: #F7F7F7;
+}
+.display-flex {
+    display: flex;
+}
+.orange{
+    color: #FEA301;
+}
+.skyblue{
+    color: #01ACFD;
+}
+.pest{
+    color: #05D4DF;
+}
+.beguni{
+    color: #5D58EF;
+}
+.black{
+    color: #111111;
+}
+
+            /* Shered Styles part End */
+
+            /* Headre Section Start */
+/* Nave bar part Start */
+.nav-bar {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nav-container {
+    height: 62px;
+}
+.child-mother {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.Child-01 {
+    text-align: center;
+
+}
+.dool-img {
+    width: 100%;
+}
+.school-pera {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: auto;
+    /* padding-top: 17px; */
+}
+.Child-02 {
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+}
+.Child-02 ul a {
+    text-decoration: none;
+    margin-left: 32px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Child-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* padding: 10px; */
+    border: none;
+    
+}
+.Child-03 a {
+    text-decoration: none;
+    /* height: 50px; */
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    background-color: #FEA301;
+    padding: 10px 40px;
+    border-radius: 12px;
+}
+
+
+/* Nave bar part End */
+
+            /* Headre Section End */
+
+
+            /* Respinsive Part Start for I-phone */
+@media screen and (max-width: 576px) {
+    .child-mother {
+        flex-direction: column;
+    }
+}
+
+
+            /* Respinsive Part End for I-phone */
