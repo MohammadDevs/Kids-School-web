@@ -31,11 +31,25 @@
 .black{
     color: #111111;
 }
+.btn-primary {
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
 
             /* Shered Styles part End */
 
             /* Headre Section Start */
 /* Nave bar part Start */
+/* .header-part {
+    height: auto;
+} */
 .nav-bar {
     max-width: 1440px;
     margin: 0 auto;
@@ -93,7 +107,31 @@
     padding: 10px 40px;
     border-radius: 12px;
 }
-
+.hamburger-img {
+    display: none;
+}
+.banner {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.banner-container {
+    max-width: 640px;
+    margin: 122px 0px;
+}
+.banner-titel {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.banner-descript {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner {
+    justify-content: space-around;
+}
 
 /* Nave bar part End */
 
@@ -102,8 +140,41 @@
 
             /* Respinsive Part Start for I-phone */
 @media screen and (max-width: 576px) {
+    .Child-02, .Child-03 {
+        display: none;
+    }
     .child-mother {
-        flex-direction: column;
+        justify-content: space-between;
+         
+    }
+    .hamburger-menu {
+       display: block; 
+       
+    }
+    .hamburger-img {
+        display: block;
+        width: 30px;
+        height: 100%;
+    }
+    .Child-01 {
+        justify-content: space-between;
+    }
+    .nav-container {
+        border-bottom: 1px solid #FEA301;
+        padding-bottom: 10px;
+    
+    }
+    .header-part {
+        background-color: #fff;
+    }
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .banner-container {
+        margin: 20px;
     }
 }
 
