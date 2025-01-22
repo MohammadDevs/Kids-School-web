@@ -257,6 +257,12 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
         gap: 20px;
         margin-top: 20px;
     }
+    .shideul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+    }
     
 }
 
