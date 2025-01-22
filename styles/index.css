@@ -12,6 +12,7 @@
             /* Shered Styles part Start */
 .max-width {
     max-width: 1440px;
+    margin: 0 auto;
 }
 .header-bg {
     background-color: #F7F7F7;
@@ -339,8 +340,150 @@ background: url(image),linear-gradient(0.00deg,
  rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
  padding-bottom: 60px;
 }
+/* 4 cards start */
+.card-shere-1 {
+    background-color: white;
+    max-width: 290px;
+    height: 300px;
+    border-radius: 16px;
+}
+.shere-img-1 {
+    border-radius: 16px 16px 0px 0px;
 
+}
+.children-1 {
+    position: absolute;
+    background-color: #01ACFD;
+    border-radius: 30px;
+    padding: 3px 10px;
+    top: 50%;
+    left: 10px;
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+.description-1 {
+    margin-top: 24px;
+    margin-left: 40px;
+}
+.card-shere-1, .shere-img-1 {
+    position: relative;
+}
+.card-shere-4, .shere-img-4 {
+    position: relative;
+}
+.description-4 {
+    margin-top: 24px;
+    margin-left: 40px;
+}
+.card-para-4 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.card-shere-4 {
+    background-color: white;
+    max-width: 290px;
+    height: 300px;
+    border-radius: 16px;
+}
+.shere-img-4 {
+    border-radius: 16px 16px 0px 0px;
 
+}
+.children-4 {
+    position: absolute;
+    background-color: #01ACFD;
+    border-radius: 30px;
+    padding: 3px 10px;
+    top: 50%;
+    left: 10px;
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+.card-shere-2, .shere-img-2 {
+    position: relative;
+}
+.description-2 {
+    margin-top: 24px;
+    margin-left: 40px;
+}
+.card-para-2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.card-shere-2 {
+    background-color: white;
+    max-width: 290px;
+    height: 300px;
+    border-radius: 16px;
+}
+.shere-img-2 {
+    border-radius: 16px 16px 0px 0px;
+
+}
+.children-2 {
+    position: absolute;
+    background-color: #01ACFD;
+    border-radius: 30px;
+    padding: 3px 10px;
+    top: 50%;
+    left: 10px;
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+.card-shere-3, .shere-img-3 {
+    position: relative;
+}
+.description-3 {
+    margin-top: 24px;
+    margin-left: 40px;
+}
+.card-para-3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.card-shere-3 {
+    background-color: white;
+    max-width: 290px;
+    height: 300px;
+    border-radius: 16px;
+}
+.shere-img-3 {
+    border-radius: 16px 16px 0px 0px;
+
+}
+.children-3 {
+    position: absolute;
+    background-color: #01ACFD;
+    border-radius: 30px;
+    padding: 3px 10px;
+    top: 50%;
+    left: 10px;
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+
+/* 4 cards start */
+.card-shere-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.parent {
+    flex-direction: row;
+    justify-content: space-around;
+}
 /* our-Stories Part End */
 
 
@@ -474,6 +617,9 @@ text-align: left;
         justify-content: center;
         align-items: center;
         gap: 32px;
+    }
+    .card-shere-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
